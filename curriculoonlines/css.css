@@ -1,24 +1,43 @@
-.box{
-    width: 320px;
-    overflow: hidden;
+body{
+    background-color: lightgrey;
 }
-.box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .4s ease-in;
-}
-.box:hover img {
-    transform: scale(1.2);
-}
-h1{
-    text-align: center;
+
+h2{
+    text-align:center;
+    color: black;
 }
 
 p{
     text-align: center;
+    color: black;
 }
 
 h3{
     text-align: center;
+    color: black;
 }
+
+div.box {
+ width: 150px;
+ display: inline-block;
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: left;
+    color: black;
+}
+
+h4{
+    color: black;
+}
+
+h6{
+    color: black;
+}
+
+
